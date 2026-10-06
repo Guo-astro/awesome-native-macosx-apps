@@ -1,112 +1,195 @@
-# Awesome Native macOS Apps
-
-[![Follow on X](https://img.shields.io/badge/X-%40Best__MacApps-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/best_macapps) [![Join Telegram](https://img.shields.io/badge/Telegram-mac__native-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mac_native) [![Subscribe on Substack](https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://nativemacapps.substack.com/)
-
-A community-curated list of macOS apps built with native technologies (Swift, SwiftUI, AppKit) that are fast, efficient, and respect your Mac's resources — no Electron bloat, just native performance.
-
-Maintained by [MacNative.io](https://macnative.io), a curated directory of quality Mac apps where you can browse screenshots, pricing, and full app details for everything listed here.
-
----
-
-## Contents
-
-**Getting Started**
-- [What Makes an App "Native"?](#what-makes-an-app-native)
-- [Electron App Detector](#-electron-app-detector)
-- [New to Mac? Start Here](#-new-to-mac-start-here)
-
-**Categories**
-- [Analytics & Monitoring](#analytics--monitoring)
-- [Audio & Music](#audio--music)
-- [Backup & Sync](#backup--sync)
-- [Browsers & Web](#browsers--web)
-- [Calendar & Time](#calendar--time)
-- [Clipboard Managers](#clipboard-managers)
-- [Color Pickers](#color-pickers)
-- [Database Tools](#database-tools)
-- [Design Tools](#design-tools)
-- [Developer Tools](#developer-tools)
-- [Email & Communication](#email--communication)
-- [Finance](#finance)
-- [File Management](#file-management)
-- [Git & Version Control](#git--version-control)
-- [Image & Graphics](#image--graphics)
-- [Markdown Editors](#markdown-editors)
-- [Menu Bar Apps](#menu-bar-apps)
-- [Network Tools](#network-tools)
-- [Note-Taking & Writing](#note-taking--writing)
-- [Password Managers](#password-managers)
-- [PDF Tools](#pdf-tools)
-- [Productivity](#productivity)
-- [Screenshot & Recording](#screenshot--recording)
-- [Security & Privacy](#security--privacy)
-- [System Utilities](#system-utilities)
-- [Terminal & Shell](#terminal--shell)
-- [Text Editors](#text-editors)
-- [Video & Media](#video--media)
-- [Wallpaper Apps](#wallpaper-apps)
-- [Window Management](#window-management)
-
-**Resources**
-- [Contributing](#contributing)
-- [Star History](#star-history)
-- [License](#license)
-
----
-
-### What Makes an App "Native"?
-
-Apps on this list are:
-
-- ✅ Built with native macOS frameworks (Swift, SwiftUI, AppKit, Objective-C)
-- ✅ Lightweight and resource-efficient
-- ✅ Follow Apple's Human Interface Guidelines
-- ✅ Feel fast and responsive
-- ❌ NOT Electron or web-wrapper apps
-- ❌ NOT resource-heavy cross-platform apps
-
----
-
-## 🚀 New to Mac? Start Here
-
-Not sure where to begin? These 6 apps are the most universally useful — install them first and thank yourself later.
-
-| App | Why it's essential |
-|-----|--------------------|
-| [Rectangle](https://rectangleapp.com/) | Snap windows into place with keyboard shortcuts. You'll use this every single day. |
-| [Maccy](https://github.com/p0deje/Maccy) | Clipboard history that just works. Never lose a copied item again. |
-| [IINA](https://iina.io/) | Plays any video format natively. Makes QuickTime feel like a toy. |
-| [AppCleaner](https://freemacsoft.net/appcleaner/) | Uninstall apps properly — removes all leftover files, not just the `.app`. |
-| [iTerm2](https://iterm2.com/) | The terminal macOS should have shipped with. Tabs, split panes, search, and more. |
-| [Raycast](https://www.raycast.com/) | Supercharged Spotlight replacement. Launch apps, manage clipboard, run scripts, and more — all from one keystroke. |
-
----
-
-## 🔍 Electron App Detector
-
-A fun, visually appealing script to detect Electron-based applications on your Mac.
-
-### Quick Start
-
-**One-line install and run:**
-
-```bash
-curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-macosx-apps/main/find-electron-apps-macos.sh | bash
-```
-
-### What It Does
-
-- 🔎 Scans `/Applications` folder for Electron apps
-- ⚡ Identifies apps built with Electron framework
-- 📊 Shows app names, sizes, and versions
-- 🎨 Beautiful, colorful terminal output
-
-📖 **[Read more about the detector →](ELECTRON-DETECTOR.md)**
-
----
-
-## Analytics & Monitoring
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome Native macOS Apps</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fg: #1f2328;
+    --bg: #ffffff;
+    --muted: #57606a;
+    --border: #d0d7de;
+    --code-bg: #f6f8fa;
+    --link: #0969da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #e6edf3;
+      --bg: #0d1117;
+      --muted: #9198a1;
+      --border: #30363d;
+      --code-bg: #161b22;
+      --link: #4493f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+  }
+  h1, h2, h3 {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.3em;
+  }
+  h1 { font-size: 2em; }
+  h2 { font-size: 1.5em; margin-top: 2em; }
+  h3 { font-size: 1.2em; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }
+  code {
+    background: var(--code-bg);
+    border-radius: 6px;
+    padding: 0.2em 0.4em;
+    font-size: 85%;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  pre code {
+    display: block;
+    padding: 1em;
+    overflow-x: auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+  }
+  table:not(:has(img)) th, table:not(:has(img)) td {
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+  }
+  td { vertical-align: top; }
+  img { max-width: 100%; }
+  ul { padding-left: 1.5em; }
+  li { margin: 0.35em 0; }
+</style>
+</head>
+<body>
+<div class="wrapper">
+<h1>Awesome Native macOS Apps</h1>
+<p><a href="https://x.com/best_macapps"><img src="https://img.shields.io/badge/X-%40Best__MacApps-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Follow on X"></a> <a href="https://t.me/mac_native"><img src="https://img.shields.io/badge/Telegram-mac__native-26A5E4?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Join Telegram"></a> <a href="https://nativemacapps.substack.com/"><img src="https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&amp;logo=substack&amp;logoColor=white" alt="Subscribe on Substack"></a></p>
+<p>A community-curated list of macOS apps built with native technologies (Swift, SwiftUI, AppKit) that are fast, efficient, and respect your Mac&#39;s resources — no Electron bloat, just native performance.</p>
+<p>Maintained by <a href="https://macnative.io">MacNative.io</a>, a curated directory of quality Mac apps where you can browse screenshots, pricing, and full app details for everything listed here.</p>
+<hr>
+<h2>Contents</h2>
+<p><strong>Getting Started</strong></p>
+<ul>
+<li><a href="#what-makes-an-app-native">What Makes an App &quot;Native&quot;?</a></li>
+<li><a href="#-electron-app-detector">Electron App Detector</a></li>
+<li><a href="#-new-to-mac-start-here">New to Mac? Start Here</a></li>
+</ul>
+<p><strong>Categories</strong></p>
+<ul>
+<li><a href="#analytics--monitoring">Analytics &amp; Monitoring</a></li>
+<li><a href="#audio--music">Audio &amp; Music</a></li>
+<li><a href="#backup--sync">Backup &amp; Sync</a></li>
+<li><a href="#browsers--web">Browsers &amp; Web</a></li>
+<li><a href="#calendar--time">Calendar &amp; Time</a></li>
+<li><a href="#clipboard-managers">Clipboard Managers</a></li>
+<li><a href="#color-pickers">Color Pickers</a></li>
+<li><a href="#database-tools">Database Tools</a></li>
+<li><a href="#design-tools">Design Tools</a></li>
+<li><a href="#developer-tools">Developer Tools</a></li>
+<li><a href="#email--communication">Email &amp; Communication</a></li>
+<li><a href="#finance">Finance</a></li>
+<li><a href="#file-management">File Management</a></li>
+<li><a href="#git--version-control">Git &amp; Version Control</a></li>
+<li><a href="#image--graphics">Image &amp; Graphics</a></li>
+<li><a href="#markdown-editors">Markdown Editors</a></li>
+<li><a href="#menu-bar-apps">Menu Bar Apps</a></li>
+<li><a href="#network-tools">Network Tools</a></li>
+<li><a href="#note-taking--writing">Note-Taking &amp; Writing</a></li>
+<li><a href="#password-managers">Password Managers</a></li>
+<li><a href="#pdf-tools">PDF Tools</a></li>
+<li><a href="#productivity">Productivity</a></li>
+<li><a href="#screenshot--recording">Screenshot &amp; Recording</a></li>
+<li><a href="#security--privacy">Security &amp; Privacy</a></li>
+<li><a href="#system-utilities">System Utilities</a></li>
+<li><a href="#terminal--shell">Terminal &amp; Shell</a></li>
+<li><a href="#text-editors">Text Editors</a></li>
+<li><a href="#video--media">Video &amp; Media</a></li>
+<li><a href="#wallpaper-apps">Wallpaper Apps</a></li>
+<li><a href="#window-management">Window Management</a></li>
+</ul>
+<p><strong>Resources</strong></p>
+<ul>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#star-history">Star History</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<hr>
+<h3>What Makes an App &quot;Native&quot;?</h3>
+<p>Apps on this list are:</p>
+<ul>
+<li>✅ Built with native macOS frameworks (Swift, SwiftUI, AppKit, Objective-C)</li>
+<li>✅ Lightweight and resource-efficient</li>
+<li>✅ Follow Apple&#39;s Human Interface Guidelines</li>
+<li>✅ Feel fast and responsive</li>
+<li>❌ NOT Electron or web-wrapper apps</li>
+<li>❌ NOT resource-heavy cross-platform apps</li>
+</ul>
+<hr>
+<h2>🚀 New to Mac? Start Here</h2>
+<p>Not sure where to begin? These 6 apps are the most universally useful — install them first and thank yourself later.</p>
+<table>
+<thead>
+<tr>
+<th>App</th>
+<th>Why it&#39;s essential</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://rectangleapp.com/">Rectangle</a></td>
+<td>Snap windows into place with keyboard shortcuts. You&#39;ll use this every single day.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/p0deje/Maccy">Maccy</a></td>
+<td>Clipboard history that just works. Never lose a copied item again.</td>
+</tr>
+<tr>
+<td><a href="https://iina.io/">IINA</a></td>
+<td>Plays any video format natively. Makes QuickTime feel like a toy.</td>
+</tr>
+<tr>
+<td><a href="https://freemacsoft.net/appcleaner/">AppCleaner</a></td>
+<td>Uninstall apps properly — removes all leftover files, not just the <code>.app</code>.</td>
+</tr>
+<tr>
+<td><a href="https://iterm2.com/">iTerm2</a></td>
+<td>The terminal macOS should have shipped with. Tabs, split panes, search, and more.</td>
+</tr>
+<tr>
+<td><a href="https://www.raycast.com/">Raycast</a></td>
+<td>Supercharged Spotlight replacement. Launch apps, manage clipboard, run scripts, and more — all from one keystroke.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🔍 Electron App Detector</h2>
+<p>A fun, visually appealing script to detect Electron-based applications on your Mac.</p>
+<h3>Quick Start</h3>
+<p><strong>One-line install and run:</strong></p>
+<pre><code class="language-bash">curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-macosx-apps/main/find-electron-apps-macos.sh | bash
+</code></pre>
+<h3>What It Does</h3>
+<ul>
+<li>🔎 Scans <code>/Applications</code> folder for Electron apps</li>
+<li>⚡ Identifies apps built with Electron framework</li>
+<li>📊 Shows app names, sizes, and versions</li>
+<li>🎨 Beautiful, colorful terminal output</li>
+</ul>
+<p>📖 <strong><a href="ELECTRON-DETECTOR.md">Read more about the detector →</a></strong></p>
+<hr>
+<h2>Analytics &amp; Monitoring</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/istat-menus.png" width="40" height="40" alt="iStat Menus icon"></td>
@@ -120,10 +203,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/usage.png" width="40" height="40" alt="Usage icon"></td>
 <td><strong><a href="https://usage.pro">Usage</a></strong><br><sub>System activity monitor for macOS, iOS, and iPadOS. <code>Freemium</code></sub></td>
 </tr>
-</table>
-
-## Audio & Music
-
+</table><h2>Audio &amp; Music</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/backgroundmusic.png" width="40" height="40" alt="BackgroundMusic icon"></td>
@@ -161,10 +241,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/soundsource.png" width="40" height="40" alt="SoundSource icon"></td>
 <td><strong><a href="https://rogueamoeba.com/soundsource/">SoundSource</a></strong><br><sub>Superior sound control for macOS. <code>Paid</code></sub></td>
 </tr>
-</table>
-
-## Backup & Sync
-
+</table><h2>Backup &amp; Sync</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/arq.png" width="40" height="40" alt="Arq icon"></td>
@@ -174,10 +251,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/carbon-copy-cloner.png" width="40" height="40" alt="Carbon Copy Cloner icon"></td>
 <td><strong><a href="https://bombich.com/">Carbon Copy Cloner</a></strong><br><sub>Reliable Mac backup and cloning solution. <code>Paid</code></sub></td>
 </tr>
-</table>
-
-## Browsers & Web
-
+</table><h2>Browsers &amp; Web</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/orion.png" width="40" height="40" alt="Orion icon"></td>
@@ -187,10 +261,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/zen-browser.png" width="40" height="40" alt="Zen Browser icon"></td>
 <td><strong><a href="https://zen-browser.app/">Zen Browser</a></strong><br><sub>Privacy-focused, customizable browser built on Firefox. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
-</table>
-
-## Calendar & Time
-
+</table><h2>Calendar &amp; Time</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/fantastical.png" width="40" height="40" alt="Fantastical icon"></td>
@@ -204,10 +275,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/meeting-bar.png" width="40" height="40" alt="Meeting Bar icon"></td>
 <td><strong><a href="https://github.com/leits/MeetingBar">Meeting Bar</a></strong><br><sub>Menu bar app for your calendar meetings. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
-</table>
-
-## Clipboard Managers
-
+</table><h2>Clipboard Managers</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/maccy.png" width="40" height="40" alt="Maccy icon"></td>
@@ -229,10 +297,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/unclutter.png" width="40" height="40" alt="Unclutter icon"></td>
 <td><strong><a href="https://unclutterapp.com/">Unclutter</a></strong><br><sub>Files, notes, and clipboard manager in one. <code>Paid</code></sub></td>
 </tr>
-</table>
-
-## Color Pickers
-
+</table><h2>Color Pickers</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/colorslurp.png" width="40" height="40" alt="ColorSlurp icon"></td>
@@ -246,10 +311,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/sip.png" width="40" height="40" alt="Sip icon"></td>
 <td><strong><a href="https://sipapp.io/">Sip</a></strong><br><sub>Collect, organize and share colors. <code>Paid</code></sub></td>
 </tr>
-</table>
-
-## Database Tools
-
+</table><h2>Database Tools</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/postico.png" width="40" height="40" alt="Postico icon"></td>
@@ -263,10 +325,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/tablepro.png" width="40" height="40" alt="TablePro icon"></td>
 <td><strong><a href="https://tablepro.app">TablePro</a></strong><br><sub>Native database client for MySQL, PostgreSQL, SQLite, MongoDB, Redis, and more. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
-</table>
-
-## Design Tools
-
+</table><h2>Design Tools</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/iconjar.png" width="40" height="40" alt="IconJar icon"></td>
@@ -280,12 +339,8 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/xscope.png" width="40" height="40" alt="xScope icon"></td>
 <td><strong><a href="https://xscopeapp.com/">xScope</a></strong><br><sub>Measure, inspect, and test on-screen graphics. <code>Paid</code></sub></td>
 </tr>
-</table>
-
-## Developer Tools
-
-[Browse developer tools on MacNative →](https://macnative.io/categories/developer-tools)
-
+</table><h2>Developer Tools</h2>
+<p><a href="https://macnative.io/categories/developer-tools">Browse developer tools on MacNative →</a></p>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/bucketmate.png" width="40" height="40" alt="BucketMate icon"></td>
@@ -335,10 +390,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/vibedock.png" width="40" height="40" alt="Vibedock icon"></td>
 <td><strong><a href="https://vibedock.dev/">Vibedock</a></strong><br><sub>Manage Claude Code MCP servers from your macOS menu bar. <code>Paid (one-time)</code></sub></td>
 </tr>
-</table>
-
-## Email & Communication
-
+</table><h2>Email &amp; Communication</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/airmail.png" width="40" height="40" alt="Airmail icon"></td>
@@ -352,12 +404,8 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/mimestream.png" width="40" height="40" alt="Mimestream icon"></td>
 <td><strong><a href="https://mimestream.com/">Mimestream</a></strong><br><sub>Native Gmail client for macOS. <code>Paid</code></sub></td>
 </tr>
-</table>
-
-## Finance
-
-[Browse money & finance apps on MacNative →](https://macnative.io/categories/money-finance)
-
+</table><h2>Finance</h2>
+<p><a href="https://macnative.io/categories/money-finance">Browse money &amp; finance apps on MacNative →</a></p>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/chronicle.png" width="40" height="40" alt="Chronicle icon"></td>
@@ -375,10 +423,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/subscription-day.png" width="40" height="40" alt="Subscription Day icon"></td>
 <td><strong><a href="https://subsday.appps.od.ua/">Subscription Day</a></strong><br><sub>Track your paid subscriptions and analyze spending statistics. <code>Freemium</code></sub></td>
 </tr>
-</table>
-
-## File Management
-
+</table><h2>File Management</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/commander-one.png" width="40" height="40" alt="Commander One icon"></td>
@@ -408,10 +453,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/encrypto.png" width="40" height="40" alt="Encrypto icon"></td>
 <td><strong><a href="https://macpaw.com/encrypto">Encrypto</a></strong><br><sub>Encrypt files with AES-256 encryption. <code>Free</code></sub></td>
 </tr>
-</table>
-
-## Git & Version Control
-
+</table><h2>Git &amp; Version Control</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/fork.png" width="40" height="40" alt="Fork icon"></td>
@@ -433,12 +475,8 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/tower.png" width="40" height="40" alt="Tower icon"></td>
 <td><strong><a href="https://www.git-tower.com/mac">Tower</a></strong><br><sub>Powerful Git client for Mac. <code>Paid</code> <code>EU</code></sub></td>
 </tr>
-</table>
-
-## Image & Graphics
-
-[Browse photo & video apps on MacNative →](https://macnative.io/categories/photo-video)
-
+</table><h2>Image &amp; Graphics</h2>
+<p><a href="https://macnative.io/categories/photo-video">Browse photo &amp; video apps on MacNative →</a></p>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/acorn.png" width="40" height="40" alt="Acorn icon"></td>
@@ -464,10 +502,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/xscope.png" width="40" height="40" alt="xScope icon"></td>
 <td><strong><a href="https://xscopeapp.com/">xScope</a></strong><br><sub>Measure, inspect and test on-screen graphics. <code>Paid</code></sub></td>
 </tr>
-</table>
-
-## Markdown Editors
-
+</table><h2>Markdown Editors</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/glance.png" width="40" height="40" alt="Glance icon"></td>
@@ -505,10 +540,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/writer.png" width="40" height="40" alt="Writer icon"></td>
 <td><strong><a href="https://writer.computer/">Writer</a></strong><br><sub>Local-first markdown editor with a Rust backend and native WKWebView. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
-</table>
-
-## Menu Bar Apps
-
+</table><h2>Menu Bar Apps</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/bartender.png" width="40" height="40" alt="Bartender icon"></td>
@@ -590,10 +622,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/translateair.png" width="40" height="40" alt="TranslateAir icon"></td>
 <td><strong><a href="https://www.translateair.com/">TranslateAir</a></strong><br><sub>AI translation and OCR from the menu bar, 100+ languages. <code>Freemium</code></sub></td>
 </tr>
-</table>
-
-## Network Tools
-
+</table><h2>Network Tools</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/holeberry.png" width="40" height="40" alt="Holeberry icon"></td>
@@ -623,12 +652,8 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/wifi-explorer.png" width="40" height="40" alt="WiFi Explorer icon"></td>
 <td><strong><a href="https://www.intuitibits.com/products/wifi-explorer/">WiFi Explorer</a></strong><br><sub>Scan, monitor and troubleshoot wireless networks. <code>Paid</code></sub></td>
 </tr>
-</table>
-
-## Note-Taking & Writing
-
-[Browse writing & documents apps on MacNative →](https://macnative.io/categories/writing-documents)
-
+</table><h2>Note-Taking &amp; Writing</h2>
+<p><a href="https://macnative.io/categories/writing-documents">Browse writing &amp; documents apps on MacNative →</a></p>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/bear.png" width="40" height="40" alt="Bear icon"></td>
@@ -682,19 +707,13 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/ulysses.png" width="40" height="40" alt="Ulysses icon"></td>
 <td><strong><a href="https://ulysses.app/">Ulysses</a></strong><br><sub>Professional writing environment for Mac. <code>Subscription</code> <code>EU</code></sub></td>
 </tr>
-</table>
-
-## Password Managers
-
+</table><h2>Password Managers</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/strongbox.png" width="40" height="40" alt="Strongbox icon"></td>
 <td><strong><a href="https://strongboxsafe.com/">Strongbox</a></strong><br><sub>Native KeePass client for macOS. <code>Freemium</code></sub></td>
 </tr>
-</table>
-
-## PDF Tools
-
+</table><h2>PDF Tools</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/pdfgear.png" width="40" height="40" alt="PDFgear icon"></td>
@@ -712,12 +731,8 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/skim.png" width="40" height="40" alt="Skim icon"></td>
 <td><strong><a href="https://skim-app.sourceforge.io/">Skim</a></strong><br><sub>PDF reader and note-taker. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
-</table>
-
-## Productivity
-
-[Browse productivity apps on MacNative →](https://macnative.io/categories/productivity)
-
+</table><h2>Productivity</h2>
+<p><a href="https://macnative.io/categories/productivity">Browse productivity apps on MacNative →</a></p>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/alfred.png" width="40" height="40" alt="Alfred icon"></td>
@@ -783,10 +798,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/speakmac.png" width="40" height="40" alt="Speakmac icon"></td>
 <td><strong><a href="https://www.speakmac.app/">Speakmac</a></strong><br><sub>Offline hotkey dictation for macOS that types into any app using on-device transcription. <code>One-Time Subscription</code></sub></td>
 </tr>
-</table>
-
-## Screenshot & Recording
-
+</table><h2>Screenshot &amp; Recording</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/bettercapture.png" width="40" height="40" alt="BetterCapture icon"></td>
@@ -824,12 +836,8 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/xnapper.png" width="40" height="40" alt="Xnapper icon"></td>
 <td><strong><a href="https://xnapper.com/">Xnapper</a></strong><br><sub>Take beautiful screenshots instantly. <code>Freemium</code></sub></td>
 </tr>
-</table>
-
-## Security & Privacy
-
-[Browse security & privacy apps on MacNative →](https://macnative.io/categories/security-privacy)
-
+</table><h2>Security &amp; Privacy</h2>
+<p><a href="https://macnative.io/categories/security-privacy">Browse security &amp; privacy apps on MacNative →</a></p>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/cryptomator.png" width="40" height="40" alt="Cryptomator icon"></td>
@@ -863,12 +871,8 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/shieldxy.png" width="40" height="40" alt="Shieldxy icon"></td>
 <td><strong><a href="https://rockxy.io/shieldxy">Shieldxy</a></strong><br><sub>Native macOS application firewall for monitoring and controlling outbound connections by app. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
-</table>
-
-## System Utilities
-
-[Browse utilities on MacNative →](https://macnative.io/categories/utilities)
-
+</table><h2>System Utilities</h2>
+<p><a href="https://macnative.io/categories/utilities">Browse utilities on MacNative →</a></p>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/aldente.png" width="40" height="40" alt="AlDente icon"></td>
@@ -950,10 +954,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/the-unarchiver.png" width="40" height="40" alt="The Unarchiver icon"></td>
 <td><strong><a href="https://theunarchiver.com/">The Unarchiver</a></strong><br><sub>Extract many archive formats. <code>Free</code></sub></td>
 </tr>
-</table>
-
-## Terminal & Shell
-
+</table><h2>Terminal &amp; Shell</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/alacritty.png" width="40" height="40" alt="Alacritty icon"></td>
@@ -975,10 +976,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/warp.png" width="40" height="40" alt="Warp icon"></td>
 <td><strong><a href="https://www.warp.dev/">Warp</a></strong><br><sub>Rust-based terminal with modern features. <code>Free</code></sub></td>
 </tr>
-</table>
-
-## Text Editors
-
+</table><h2>Text Editors</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/bbedit.png" width="40" height="40" alt="BBEdit icon"></td>
@@ -1020,13 +1018,8 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/vimr.png" width="40" height="40" alt="VimR icon"></td>
 <td><strong><a href="https://github.com/qvacua/vimr">VimR</a></strong><br><sub>Neovim GUI for macOS. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
-</table>
-
-
-## Video & Media
-
-[Browse photo & video apps on MacNative →](https://macnative.io/categories/photo-video)
-
+</table><h2>Video &amp; Media</h2>
+<p><a href="https://macnative.io/categories/photo-video">Browse photo &amp; video apps on MacNative →</a></p>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/handbrake.png" width="40" height="40" alt="HandBrake icon"></td>
@@ -1060,10 +1053,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/vlc.png" width="40" height="40" alt="VLC icon"></td>
 <td><strong><a href="https://www.videolan.org/vlc/">VLC</a></strong><br><sub>Cross-platform multimedia player. <code>Free</code> <code>Open Source</code> <code>EU</code></sub></td>
 </tr>
-</table>
-
-## Wallpaper Apps
-
+</table><h2>Wallpaper Apps</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/backspace.png" width="40" height="40" alt="Backspace icon"></td>
@@ -1073,10 +1063,7 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/wallspace.png" width="40" height="40" alt="Wallspace icon"></td>
 <td><strong><a href="https://wallspace.app/">Wallspace</a></strong><br><sub>Live Wallpapers for Macos, with custom lock screen. <code>Freemium</code></sub></td>
 </tr>
-</table>
-
-## Window Management
-
+</table><h2>Window Management</h2>
 <table>
 <tr>
 <td width="56"><img src="resources/icons/amethyst.png" width="40" height="40" alt="Amethyst icon"></td>
@@ -1126,81 +1113,59 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <td width="56"><img src="resources/icons/yabai.png" width="40" height="40" alt="Yabai icon"></td>
 <td><strong><a href="https://github.com/koekeishiya/yabai">Yabai</a></strong><br><sub>Tiling window manager for macOS. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
-</table>
-
----
-
-## 📬 Get Monthly Native App Picks in Your Inbox
-
-Subscribe to our newsletter and get 5-10 handpicked native macOS apps delivered monthly.
-
-**What you'll get:**
-
-- 🎯 Curated native apps (no Electron bloat)
-- 💎 Hidden gems you won't find elsewhere
-- 🆓 Free & open-source alternatives
-- 📊 App comparisons & recommendations
-- 🔧 Tips for getting the most out of your Mac
-
-📖 **[Subscribe to the Newsletter →](https://nativemacapps.substack.com/)**
-
-_Join early subscribers and never miss a great native Mac app again. Unsubscribe anytime._
-
----
-
-## Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting.
-
-### How to Contribute
-
-1. **Fork** this repository
-2. **Add** your app to the appropriate category's table, in alphabetical order, following the two-column gallery format described in [CONTRIBUTING.md](CONTRIBUTING.md)
-3. **Verify** the app is truly native (Swift/SwiftUI/AppKit)
-4. Create a **Pull Request**
-
-### App Requirements
-
-Apps must meet ALL these criteria:
-
-- ✅ Built with native macOS technologies
-- ✅ Lightweight and performant
-- ✅ Actively maintained (updated within the last 2 years)
-- ✅ Available for download
-- ✅ No malware/spyware
-
-### What NOT to Include
-
-- ❌ Electron apps
-- ❌ Web wrappers
-- ❌ Abandoned projects (no updates in 2+ years)
-- ❌ Apps with malware/suspicious behavior
-- ❌ Cross-platform apps with poor macOS integration
-
-### Get Your App Spotlighted on X
-
-Beyond adding your app to this list, you can send it to us on [X (@NativeMacApps)](https://x.com/NativeMacApps) for a chance at an individual spotlight post with a screenshot and writeup. [Follow the account](https://x.com/NativeMacApps) to catch new spotlights.
-
-## Star History
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=open-saas-directory/awesome-native-macosx-apps&type=Date)](https://star-history.dera.page/#open-saas-directory/awesome-native-macosx-apps&Date)
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related rights to this work.
-
----
-
-**💡 Found a great native macOS app?** [Submit it here!](../../issues/new?template=app-submission.md)
-
-**⭐ If you find this list useful, please star the repo to help others discover it!**
-
-**🔗 Share:** [Twitter](https://twitter.com/intent/tweet?text=Awesome%20Native%20macOS%20Apps%20%E2%80%93%20A%20curated%20list%20of%20beautiful%2C%20lightweight%20macOS%20applications&url=https://github.com/open-saas-directory/awesome-native-macosx-apps) | [Reddit](https://reddit.com/submit?url=https://github.com/open-saas-directory/awesome-native-macosx-apps&title=Awesome%20Native%20macOS%20Apps)
-
-
-
----
-
-Reach thousands of Mac power users by sponsoring this list. Contact us at [sponsor@opensaas.directory](mailto:sponsor@opensaas.directory)
+</table><hr>
+<h2>📬 Get Monthly Native App Picks in Your Inbox</h2>
+<p>Subscribe to our newsletter and get 5-10 handpicked native macOS apps delivered monthly.</p>
+<p><strong>What you&#39;ll get:</strong></p>
+<ul>
+<li>🎯 Curated native apps (no Electron bloat)</li>
+<li>💎 Hidden gems you won&#39;t find elsewhere</li>
+<li>🆓 Free &amp; open-source alternatives</li>
+<li>📊 App comparisons &amp; recommendations</li>
+<li>🔧 Tips for getting the most out of your Mac</li>
+</ul>
+<p>📖 <strong><a href="https://nativemacapps.substack.com/">Subscribe to the Newsletter →</a></strong></p>
+<p><em>Join early subscribers and never miss a great native Mac app again. Unsubscribe anytime.</em></p>
+<hr>
+<h2>Contributing</h2>
+<p>We welcome contributions! Please read our <a href="CONTRIBUTING.md">Contributing Guidelines</a> before submitting.</p>
+<h3>How to Contribute</h3>
+<ol>
+<li><strong>Fork</strong> this repository</li>
+<li><strong>Add</strong> your app to the appropriate category&#39;s table, in alphabetical order, following the two-column gallery format described in <a href="CONTRIBUTING.md">CONTRIBUTING.md</a></li>
+<li><strong>Verify</strong> the app is truly native (Swift/SwiftUI/AppKit)</li>
+<li>Create a <strong>Pull Request</strong></li>
+</ol>
+<h3>App Requirements</h3>
+<p>Apps must meet ALL these criteria:</p>
+<ul>
+<li>✅ Built with native macOS technologies</li>
+<li>✅ Lightweight and performant</li>
+<li>✅ Actively maintained (updated within the last 2 years)</li>
+<li>✅ Available for download</li>
+<li>✅ No malware/spyware</li>
+</ul>
+<h3>What NOT to Include</h3>
+<ul>
+<li>❌ Electron apps</li>
+<li>❌ Web wrappers</li>
+<li>❌ Abandoned projects (no updates in 2+ years)</li>
+<li>❌ Apps with malware/suspicious behavior</li>
+<li>❌ Cross-platform apps with poor macOS integration</li>
+</ul>
+<h3>Get Your App Spotlighted on X</h3>
+<p>Beyond adding your app to this list, you can send it to us on <a href="https://x.com/NativeMacApps">X (@NativeMacApps)</a> for a chance at an individual spotlight post with a screenshot and writeup. <a href="https://x.com/NativeMacApps">Follow the account</a> to catch new spotlights.</p>
+<h2>Star History</h2>
+<p><a href="https://star-history.dera.page/#open-saas-directory/awesome-native-macosx-apps&amp;Date"><img src="https://star-history.dera.page/svg?repos=open-saas-directory/awesome-native-macosx-apps&amp;type=Date" alt="Star History Chart"></a></p>
+<h2>License</h2>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="CC0"></a></p>
+<p>To the extent possible under law, the contributors have waived all copyright and related rights to this work.</p>
+<hr>
+<p><strong>💡 Found a great native macOS app?</strong> <a href="../../issues/new?template=app-submission.md">Submit it here!</a></p>
+<p><strong>⭐ If you find this list useful, please star the repo to help others discover it!</strong></p>
+<p><strong>🔗 Share:</strong> <a href="https://twitter.com/intent/tweet?text=Awesome%20Native%20macOS%20Apps%20%E2%80%93%20A%20curated%20list%20of%20beautiful%2C%20lightweight%20macOS%20applications&amp;url=https://github.com/open-saas-directory/awesome-native-macosx-apps">Twitter</a> | <a href="https://reddit.com/submit?url=https://github.com/open-saas-directory/awesome-native-macosx-apps&amp;title=Awesome%20Native%20macOS%20Apps">Reddit</a></p>
+<hr>
+<p>Reach thousands of Mac power users by sponsoring this list. Contact us at <a href="mailto:sponsor@opensaas.directory">sponsor@opensaas.directory</a></p>
+</div>
+</body>
+</html>
