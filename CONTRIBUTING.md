@@ -1,26 +1,96 @@
 # Contributing to Awesome Native macOS Apps
 
-Thanks for helping grow this list! Here's how to contribute.
+First off, thank you for considering contributing to this list! It's people like you that make this resource valuable
+for the macOS community.
 
-## Ways to Submit
+## Table of Contents
 
-- **Pull request**: Add your app directly (see format below) and open a PR.
-- **Issue**: Open an ["App Suggestion" issue](../../issues/new) if you'd rather not submit a PR.
-- **[macnative.io](https://macnative.io)**: Submit your app on our website — no GitHub account needed.
+- [How Can I Contribute?](#how-can-i-contribute)
+- [Submission Guidelines](#submission-guidelines)
+- [App Requirements](#app-requirements)
+- [Formatting Guidelines](#formatting-guidelines)
+- [Pull Request Process](#pull-request-process)
 
-## What We're Looking For
+## How Can I Contribute?
+
+### Suggesting an App
+
+1. **Search first**: Check if the app is already listed or has been suggested
+2. **Create an issue**: Use the "App Suggestion" template
+3. **Or submit directly**: Create a pull request with your addition
+
+### Improving Descriptions
+
+Found a typo or want to improve an app description? Feel free to submit a PR!
+
+### Get Your App Spotlighted on X
+
+Want more than a line in the list? Send your app to [@Best_MacApps](https://x.com/best_macapps) on X for a chance at its own spotlight post.
+
+### Reporting Issues
+
+- Broken links
+- Apps that are no longer maintained
+- Apps that don't meet the native criteria
+- Outdated information
+
+## Submission Guidelines
+
+### What We're Looking For
+
+Apps that are:
 
 - ✅ **Native** - Built with Swift, SwiftUI, AppKit, or Objective-C
 - ✅ **Lightweight** - Resource-efficient and fast
-- ✅ **Well-designed** - Follows macOS Human Interface Guidelines
+- ✅ **Well-designed** - Follow macOS Human Interface Guidelines
 - ✅ **Actively maintained** - Updated within the last 2 years
 - ✅ **Functional** - Actually useful and works well
 
-**We don't accept**: Electron apps or web wrappers (rare exceptions for exceptional apps), abandoned projects, apps with malware/adware, poorly designed apps, or self-submissions unless truly exceptional.
+### What We Don't Accept
 
-## Format
+- ❌ Electron apps (with rare exceptions for exceptional apps)
+- ❌ Web wrappers
+- ❌ Abandoned projects (no updates in 2+ years)
+- ❌ Apps with malware, adware, or suspicious behavior
+- ❌ Poorly designed apps
+- ❌ Your own app (unless it's truly exceptional) - we value third-party recommendations
 
-Each category is a two-column HTML table. Add your app as one `<td>` cell, pairing up with whatever cell it lands next to alphabetically. If your app makes the row count odd, leave the row's second cell as an empty `<td width="50%"></td>` — a later PR adding another app to the category will pair up with it.
+## App Requirements
+
+Before submitting an app, ensure it meets these criteria:
+
+1. **Native Technology**: Built with macOS-native frameworks
+    - Swift, SwiftUI, AppKit, Objective-C
+    - May use native web views (WebKit) for specific features
+    - Should feel native, not like a web page
+
+2. **Performance**:
+    - Lightweight (< 200MB typical)
+    - Low resource usage
+    - Fast startup and response times
+
+3. **Availability**:
+    - Downloadable and installable
+    - Works on currently supported macOS versions
+    - Has a stable release (not just alpha/beta)
+
+4. **Maintenance**:
+    - Updated within the last 2 years
+    - Active development or maintenance
+    - Responsive to critical bugs
+
+5. **Quality**:
+    - Stable and reliable
+    - Good user reviews/reputation
+    - Proper macOS integration
+
+## Formatting Guidelines
+
+### App Entry Format
+
+Each category is a two-column HTML table. Add your app as one `<td>` cell, pairing up with whatever cell it lands
+next to alphabetically. If your app makes the row count odd, leave the row's second cell as an empty
+`<td width="50%"></td>` — a later PR adding another app to the category will pair up with it.
 
 ```html
 <td align="center" valign="top" width="50%">
@@ -42,31 +112,150 @@ Lightweight clipboard manager.<br>
 </td>
 ```
 
-**Icon**: A real 64×64 PNG of the app's actual icon, sourced from the official website, repository, or Mac App Store listing — never an emoji, generic symbol, or invented image. Add the file to `resources/icons/` and record its source in `resources/icons/SOURCES.md`. If you can't obtain a real icon, omit the `<img>` line and submit the entry text-only rather than block on it.
+**Icon**: A real 64×64 PNG of the app's actual icon, sourced from the official website, repository, or Mac App
+Store listing — never an emoji, generic symbol, or invented image. Add the file to `resources/icons/` and record
+its source in `resources/icons/SOURCES.md`. If you can't obtain a real icon, omit the `<img>` line and submit the
+entry text-only rather than block on it.
 
-**Labels**: `Free`, `Free` `Open Source`, `Freemium`, `Freemium` `Open Source`, `Paid`, `Subscription`, `EU`
+### Labels
 
-**Description**: One line, under 100 characters, objective (no "best ever!"), no emojis, proper grammar.
+- `Free` - Completely free with no paid features
+- `Free` `Open Source` - Free and open source
+- `Freemium` - Free with optional paid features
+- `Freemium` `Open Source` - Open source with optional paid features
+- `Paid` - One-time purchase
+- `Subscription` - Requires ongoing subscription
+- `EU` - Made by a team or company based in the European Union
 
-## Pull Request Checklist
+### Description Guidelines
+
+- **One line only** - Keep it concise (< 100 characters)
+- **Focus on what it does** - Not marketing speak
+- **Be objective** - Avoid subjective terms like "the best"
+- **No emojis** - Keep it professional
+- **Proper grammar** - Check spelling and punctuation
+
+**Good descriptions:**
+
+- ✅ "Control external monitor brightness like native displays."
+- ✅ "Native code editor for macOS."
+- ✅ "Advanced IMAP email client with keyboard control."
+
+**Bad descriptions:**
+
+- ❌ "The best app ever! 😍"
+- ❌ "Revolutionary groundbreaking amazing tool"
+- ❌ "You absolutely need this app"
+
+## Pull Request Process
+
+### 1. Fork the Repository
+
+Click the "Fork" button at the top right of the repository page.
+
+### 2. Create a Branch
+
+```bash
+git checkout -b add-app-name
+```
+
+### 3. Make Your Changes
+
+- Add your app to the appropriate category's table
+- Maintain alphabetical order within categories
+- Follow the formatting guidelines exactly
+
+### 4. Test Your Changes
+
+- Preview your changes in Markdown
+- Verify all links work
+- Check for typos
+
+### 5. Commit Your Changes
+
+```bash
+git add README.md
+git commit -m "Add [App Name] to [Category]"
+```
+
+Use clear commit messages:
+
+- ✅ "Add Bear to Note-Taking & Writing"
+- ✅ "Update Things description"
+- ✅ "Fix broken link for IINA"
+- ❌ "Update"
+- ❌ "Changes"
+
+### 6. Push to GitHub
+
+```bash
+git push origin add-app-name
+```
+
+### 7. Create Pull Request
+
+- Go to the original repository
+- Click "New Pull Request"
+- Select your branch
+- Fill in the PR template
+- Submit!
+
+### PR Checklist
+
+Before submitting, ensure:
 
 - [ ] App is truly native (not Electron/web wrapper)
-- [ ] Placed in the correct category's table, alphabetically ordered
-- [ ] Follows the HTML cell format above
+- [ ] App is in the correct category
+- [ ] Alphabetically ordered within category
+- [ ] Follows formatting guidelines exactly
 - [ ] Icon is a real 64×64 PNG from an official source, with its source recorded in `resources/icons/SOURCES.md` (or the entry is left text-only)
-- [ ] Link works and points to the official site/repo
+- [ ] Description is concise and objective
+- [ ] Link works and points to official site/repo
 - [ ] Pricing label is accurate
 - [ ] No duplicate entries
+- [ ] Commit message is clear
 
-## Get Your App Spotlighted on X
+## Review Process
 
-Want more than a line in the list? Send your app to [@Best_MacApps](https://x.com/best_macapps) on X for a chance at its own spotlight post.
+1. **Automated checks** - Link checker, formatting validation
+2. **Maintainer review** - We'll verify the app meets our criteria
+3. **Feedback** - We may request changes
+4. **Merge** - Once approved, we'll merge your PR!
+
+Typical review time: 1-7 days
+
+## Adding New Categories
+
+Want to suggest a new category? Open an issue first to discuss:
+
+- Why it's needed
+- What apps would go in it
+- How it differs from existing categories
 
 ## Questions?
 
-- 💬 [GitHub Discussions](../../discussions)
-- 🐛 [Open an issue](../../issues/new)
-- 🐦 [@best_macapps](https://x.com/best_macapps) on X
-- 🌐 [macnative.io](https://macnative.io)
+- 💬 **Discussion**: Use [GitHub Discussions](../../discussions)
+- 🐛 **Issues**: Create an [issue](../../issues/new)
+- 🐦 **X**: [@best_macapps](https://x.com/best_macapps)
+- 📧 **Email**: (Add your contact email if you want)
 
-Thank you for contributing! 🙏
+## Recognition
+
+Contributors are recognized in:
+
+- GitHub's contributor graph
+- Release notes when applicable
+- Our gratitude! ⭐
+
+## Code of Conduct
+
+- Be respectful and constructive
+- No spam or self-promotion
+- No offensive language
+- Follow
+  GitHub's [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
+
+## Thank You!
+
+Every contribution, no matter how small, helps make this list better for the macOS community. We appreciate your time
+and effort! 🙏
