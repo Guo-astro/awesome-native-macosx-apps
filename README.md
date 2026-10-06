@@ -6,13 +6,14 @@ A community-curated list of macOS apps built with native technologies (Swift, Sw
 
 Maintained by [MacNative.io](https://macnative.io), a curated directory of quality Mac apps where you can browse screenshots, pricing, and full app details for everything listed here.
 
+**👨‍💻 Building a Mac app?** This list is for users discovering apps — if you're looking for where to *launch* one, see [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms) for submission platforms, subreddits, and newsletters, each tagged free or paid.
+
 ---
 
 ## Contents
 
 **Getting Started**
 - [What Makes an App "Native"?](#what-makes-an-app-native)
-- [Electron App Detector](#-electron-app-detector)
 - [New to Mac? Start Here](#-new-to-mac-start-here)
 
 **Categories**
@@ -78,30 +79,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 | [IINA](https://iina.io/) | Plays any video format natively. Makes QuickTime feel like a toy. |
 | [AppCleaner](https://freemacsoft.net/appcleaner/) | Uninstall apps properly — removes all leftover files, not just the `.app`. |
 | [iTerm2](https://iterm2.com/) | The terminal macOS should have shipped with. Tabs, split panes, search, and more. |
-| [Raycast](https://www.raycast.com/) | Supercharged Spotlight replacement. Launch apps, manage clipboard, run scripts, and more — all from one keystroke. |
-
----
-
-## 🔍 Electron App Detector
-
-A fun, visually appealing script to detect Electron-based applications on your Mac.
-
-### Quick Start
-
-**One-line install and run:**
-
-```bash
-curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-macosx-apps/main/find-electron-apps-macos.sh | bash
-```
-
-### What It Does
-
-- 🔎 Scans `/Applications` folder for Electron apps
-- ⚡ Identifies apps built with Electron framework
-- 📊 Shows app names, sizes, and versions
-- 🎨 Beautiful, colorful terminal output
-
-📖 **[Read more about the detector →](ELECTRON-DETECTOR.md)**
+| [TinyCast](https://tinycast.dev/) | Supercharged Spotlight replacement. Launch apps, manage clipboard, run scripts, and more — all from one keystroke. |
 
 ---
 
@@ -195,6 +173,10 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <tr>
 <td width="56"><img src="resources/icons/fantastical.png" width="40" height="40" alt="Fantastical icon"></td>
 <td><strong><a href="https://flexibits.com/fantastical">Fantastical</a></strong><br><sub>Calendar app with natural language input. <code>Subscription</code></sub></td>
+</tr>
+<tr>
+<td width="56"><img src="resources/icons/hora-calendar.png" width="40" height="40" alt="hora Calendar icon"></td>
+<td><strong><a href="https://horacal.app">hora Calendar</a></strong><br><sub>Google Calendar client for macOS with API connection. <code>Suscription</code></sub></td>
 </tr>
 <tr>
 <td width="56"><img src="resources/icons/itsycal.png" width="40" height="40" alt="Itsycal icon"></td>
@@ -302,6 +284,10 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <tr>
 <td width="56"><img src="resources/icons/devutils.png" width="40" height="40" alt="DevUtils icon"></td>
 <td><strong><a href="https://devutils.com/">DevUtils</a></strong><br><sub>All-in-one offline toolbox for developers (42+ tools). <code>Freemium</code></sub></td>
+</tr>
+<tr>
+<td width="56"><img src="resources/icons/macsmith.png" width="40" height="40" alt="Macsmith icon"></td>
+<td><strong><a href="https://macsmith.app/">Macsmith</a></strong><br><sub>GUI for CLI dev tools like Homebrew, mise, nvm, Colima, and local databases. <code>Freemium</code></sub></td>
 </tr>
 <tr>
 <td width="56"><img src="resources/icons/paw.png" width="40" height="40" alt="Paw icon"></td>
@@ -525,6 +511,10 @@ curl -sL https://raw.githubusercontent.com/open-saas-directory/awesome-native-ma
 <tr>
 <td width="56"><img src="resources/icons/dozer.png" width="40" height="40" alt="Dozer icon"></td>
 <td><strong><a href="https://github.com/Mortennn/Dozer">Dozer</a></strong><br><sub>Hide menu bar icons to give your Mac a cleaner look. <code>Free</code> <code>Open Source</code></sub></td>
+</tr>
+<tr>
+<td width="56"><img src="resources/icons/dynamichorizon.png" width="40" height="40" alt="DynamicHorizon icon"></td>
+<td><strong><a href="https://www.dynamichorizon.app/">DynamicHorizon</a></strong><br><sub>Shows media, notifications, timers, downloads, and controls around the Mac notch. <code>Paid</code></sub></td>
 </tr>
 <tr>
 <td width="56"><img src="resources/icons/hand-mirror.png" width="40" height="40" alt="Hand Mirror icon"></td>
@@ -1179,7 +1169,11 @@ Apps must meet ALL these criteria:
 
 ### Get Your App Spotlighted on X
 
-Beyond adding your app to this list, you can send it to us on [X (@NativeMacApps)](https://x.com/NativeMacApps) for a chance at an individual spotlight post with a screenshot and writeup. [Follow the account](https://x.com/NativeMacApps) to catch new spotlights.
+Beyond adding your app to this list, you can send it to us on [X (@best_macapps)](https://x.com/best_macapps) for a chance at an individual spotlight post with a screenshot and writeup. [Follow the account](https://x.com/NativeMacApps) to catch new spotlights.
+
+### Looking for More Places to Launch?
+
+Getting your app into this list is one channel — for the full picture (Product Hunt-style platforms, relevant subreddits, other GitHub awesome lists, and newsletters that cover Mac apps), see [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
 
 ## Star History
 

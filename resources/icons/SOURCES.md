@@ -46,6 +46,7 @@ Each icon was resized to 64x64px for display; no crops or edits beyond resizing/
 | Divvy | `resources/icons/divvy.png` | https://mizage.com/favicon-152.png (official site) |
 | Dozer | `resources/icons/dozer.png` | GitHub repo Mortennn/Dozer — Dozer/Other/Assets.xcassets/AppIcon.appiconset/Icon_256x256.png |
 | Due | `resources/icons/due.png` | https://www.dueapp.com/apple-touch-icon.png (official site) |
+| DynamicHorizon | `resources/icons/dynamichorizon.png` | https://dynamichorizon.app/assets/brand/apple-touch-icon.png (official site) |
 | Encrypto | `resources/icons/encrypto.png` | https://cdn3.macpaw.com/images/favicons/apple-touch-icon.png?id=92af76cf08117ef48964c0c815b89f3b (official site) |
 | EtreCheck | `resources/icons/etrecheck.png` | https://etrecheck.com/favicons/apple-icon-180x180.png (official site) |
 | FSNotes | `resources/icons/fsnotes.png` | https://fsnot.es/apple-touch-icon.png (official site) |
@@ -64,6 +65,7 @@ Each icon was resized to 64x64px for display; no crops or edits beyond resizing/
 | Hidden Bar | `resources/icons/hidden-bar.png` | GitHub repo dwarvesf/hidden — hidden/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png |
 | Holeberry | `resources/icons/holeberry.png` | https://github.githubassets.com/assets/apple-touch-icon-180x180-a80b8e11abe2.png (official site) |
 | HomeBar for Homey Pro | `resources/icons/homebar-for-homey-pro.png` | https://homebar.pro/favicon.ico?favicon.346d54aa.ico (official site) |
+| hora Calendar | `resources/icons/hora-calendar.png` | https://horacal.app/assets/brand/apple-touch-icon-180.png (official site) |
 | IINA | `resources/icons/iina.png` | https://iina.io/images/apple-touch-icon.png (official site) |
 | IconJar | `resources/icons/iconjar.png` | https://geticonjar.com/favicon32.png (official site) |
 | ImageOptim | `resources/icons/imageoptim.png` | https://imageoptim.com/icon.png (official site) |
@@ -83,6 +85,7 @@ Each icon was resized to 64x64px for display; no crops or edits beyond resizing/
 | Loop | `resources/icons/loop.png` | GitHub repo MrKai77/Loop — Loop/Assets.xcassets/App Icons/AppIcon-Loop Master.appiconset/appicon_256.png (one of several selectable icon themes; repo has no single default) |
 | Lulu | `resources/icons/lulu.png` | https://objective-see.org/images/favicon.png (official site) |
 | Lungo | `resources/icons/lungo.png` | https://sindresorhus.com/apps/lungo/icon.png (official site) |
+| Macsmith | `resources/icons/macsmith.png` | https://macsmith.app/assets/macsmith-icon-64.png (official site) |
 | MD Preview | `resources/icons/md-preview.png` | GitHub repo vorojar/md-preview — assets/icon_1024.png |
 | MWeb | `resources/icons/mweb.png` | https://www.mweb.im/asset/icon_192.png (official site) |
 | MacDown | `resources/icons/macdown.png` | https://macdown.uranusjr.com/static/images/logo.png (official site) |
