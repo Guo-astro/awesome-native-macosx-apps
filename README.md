@@ -1,10 +1,10 @@
-#  Best Mac Apps (2026) — Native macOS Apps
+# Best Mac Apps (2026) — Native macOS Apps
 
 [![Follow on X](https://img.shields.io/badge/X-%40mac__native-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mac_native) [![Join Telegram](https://img.shields.io/badge/Telegram-mac__native-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mac_native) [![Subscribe on Substack](https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://nativemacapps.substack.com/)
 
 Discover high-quality macOS apps built with native technologies (Swift, SwiftUI, AppKit) that are fast, efficient, and respect your Mac's resources. This list focuses on apps that feel like they belong on macOS — no Electron bloat, just pure native performance.
 
-Maintained by [MacNative.io](https://macnative.io), a curated directory of quality mac apps.
+Maintained by [MacNative.io](https://macnative.io/?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=readme_intro), a curated directory of Mac apps. Explore screenshots, pricing, and app details to find the right tools for your Mac.
 
 ## 📬 Get Monthly Native App Picks in Your Inbox
 
@@ -66,6 +66,7 @@ _Join early subscribers and never miss a great native Mac app again. Unsubscribe
 - 🪟 [Window Management](#window-management)
 
 **Resources**
+- [Mac App Guides](#mac-app-guides)
 - [Contributing](#contributing)
 - [Star History](#star-history)
 - [License](#license)
@@ -120,6 +121,8 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## AI Tools
 
+[Browse AI and automation apps on MacNative →](https://macnative.io/categories/ai-automation?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_ai-automation)
+
 <!-- No entries yet — see CONTRIBUTING.md for how to add one. Keep entries alphabetical and native (no Electron AI wrappers). -->
 
 <table>
@@ -143,6 +146,8 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 </table>
 
 ## Audio & Music
+
+[Browse audio and voice apps on MacNative →](https://macnative.io/categories/audio-voice?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_audio-voice)
 
 <table>
 <tr>
@@ -308,7 +313,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## Developer Tools
 
-[Browse developer tools on MacNative →](https://macnative.io/categories/developer-tools)
+[Browse developer tools with screenshots and pricing on MacNative →](https://macnative.io/categories/developer-tools?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_developer-tools)
 
 <table>
 <tr>
@@ -384,7 +389,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## Finance
 
-[Browse money & finance apps on MacNative →](https://macnative.io/categories/money-finance)
+[Browse money & finance apps with screenshots and pricing on MacNative →](https://macnative.io/categories/money-finance?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_money-finance)
 
 <table>
 <tr>
@@ -465,7 +470,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## Image & Graphics
 
-[Browse photo & video apps on MacNative →](https://macnative.io/categories/photo-video)
+[Browse photo & video apps with screenshots and pricing on MacNative →](https://macnative.io/categories/photo-video?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_photo-video)
 
 <table>
 <tr>
@@ -659,7 +664,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## Note-Taking & Writing
 
-[Browse writing & documents apps on MacNative →](https://macnative.io/categories/writing-documents)
+[Browse writing & documents apps with screenshots and pricing on MacNative →](https://macnative.io/categories/writing-documents?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_writing-documents)
 
 <table>
 <tr>
@@ -748,7 +753,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## Productivity
 
-[Browse productivity apps on MacNative →](https://macnative.io/categories/productivity)
+[Browse productivity apps with screenshots and pricing on MacNative →](https://macnative.io/categories/productivity?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_productivity)
 
 <table>
 <tr>
@@ -860,7 +865,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## Security & Privacy
 
-[Browse security & privacy apps on MacNative →](https://macnative.io/categories/security-privacy)
+[Browse security & privacy apps with screenshots and pricing on MacNative →](https://macnative.io/categories/security-privacy?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_security-privacy)
 
 <table>
 <tr>
@@ -899,7 +904,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## System Utilities
 
-[Browse utilities on MacNative →](https://macnative.io/categories/utilities)
+[Browse utilities with screenshots and pricing on MacNative →](https://macnative.io/categories/utilities?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_utilities)
 
 <table>
 <tr>
@@ -1057,7 +1062,7 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ## Video & Media
 
-[Browse photo & video apps on MacNative →](https://macnative.io/categories/photo-video)
+[Browse photo & video apps with screenshots and pricing on MacNative →](https://macnative.io/categories/photo-video?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_photo-video)
 
 <table>
 <tr>
@@ -1159,6 +1164,16 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 <td><strong><a href="https://github.com/koekeishiya/yabai">Yabai</a></strong><br><sub>Tiling window manager for macOS. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
 </table>
+
+## Mac App Guides
+
+Go beyond the list with guides from MacNative:
+
+- [How to check whether a Mac app uses Electron](https://macnative.io/blog/how-to-check-if-mac-app-uses-electron?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=guide_electron)
+- [Raycast vs. Tinycast vs. Vicinae vs. SuperCMD](https://macnative.io/blog/raycast-vs-tinycast-vs-vicinae-vs-supercmd?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=guide_launchers)
+- [Mac clipboard managers without a subscription](https://macnative.io/blog/mac-clipboard-managers-no-subscription?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=guide_clipboard_index)
+
+---
 
 ## Contributing
 
