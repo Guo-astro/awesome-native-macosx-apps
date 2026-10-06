@@ -21,6 +21,7 @@
 
 - [ ] My app follows the formatting guidelines
 - [ ] I've added the app in alphabetical order
+- [ ] Icon added to `resources/icons/` (displayed at 48×48), source recorded in `resources/icons/SOURCES.md` — or left text-only
 - [ ] The app is truly native (not Electron/web wrapper)
 - [ ] Links are working
 - [ ] Description is concise (< 100 characters)

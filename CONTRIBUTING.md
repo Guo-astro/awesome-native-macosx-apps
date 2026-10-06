@@ -88,34 +88,37 @@ Before submitting an app, ensure it meets these criteria:
 
 ### App Entry Format
 
-Each category is a two-column HTML table. Add your app as one `<td>` cell, pairing up with whatever cell it lands
-next to alphabetically. If your app makes the row count odd, leave the row's second cell as an empty
-`<td width="50%"></td>` — a later PR adding another app to the category will pair up with it.
+Each category is an HTML table of icon-led, two-line rows. Add your app as one `<tr>`, in alphabetical order within
+the category:
 
 ```html
-<td align="center" valign="top" width="50%">
-<img src="resources/icons/app-name.png" width="64" height="64" alt="App Name icon"><br>
-<strong><a href="https://app-website.com">App Name</a></strong><br>
-Brief one-line description.<br>
-<code>Pricing</code>
-</td>
+<tr>
+<td width="64"><img src="resources/icons/app-name.png" width="48" height="48" alt="App Name icon"></td>
+<td><strong><a href="https://app-website.com">App Name</a></strong><br><sub>Brief one-line description. <code>Pricing</code></sub></td>
+</tr>
 ```
 
 **Example:**
 
 ```html
-<td align="center" valign="top" width="50%">
-<img src="resources/icons/maccy.png" width="64" height="64" alt="Maccy icon"><br>
-<strong><a href="https://github.com/p0deje/Maccy">Maccy</a></strong><br>
-Lightweight clipboard manager.<br>
-<code>Free</code> <code>Open Source</code>
-</td>
+<tr>
+<td width="64"><img src="resources/icons/maccy.png" width="48" height="48" alt="Maccy icon"></td>
+<td><strong><a href="https://github.com/p0deje/Maccy">Maccy</a></strong><br><sub>Lightweight clipboard manager. <code>Free</code> <code>Open Source</code></sub></td>
+</tr>
 ```
 
-**Icon**: A real 64×64 PNG of the app's actual icon, sourced from the official website, repository, or Mac App
-Store listing — never an emoji, generic symbol, or invented image. Add the file to `resources/icons/` and record
-its source in `resources/icons/SOURCES.md`. If you can't obtain a real icon, omit the `<img>` line and submit the
-entry text-only rather than block on it.
+**Icon**: A real PNG of the app's actual icon, sourced from the official website, repository, or Mac App Store
+listing — never an emoji, generic symbol, or invented image.
+
+1. Save the file to `resources/icons/<app-slug>.png` (lowercase, hyphenated — e.g. `resources/icons/maccy.png`).
+   You can extract it automatically from a `.dmg`/`.zip` download with
+   `./scripts/extract-icon.sh <download-url> <app-slug>`, which saves straight into `resources/icons/`.
+2. Record its source (URL and where it came from) in `resources/icons/SOURCES.md`.
+3. Reference it in your entry's `<img>` tag at `width="48" height="48"` — the display size used throughout the
+   list, regardless of the source file's actual resolution.
+
+If you can't obtain a real icon, leave the icon cell empty (`<td width="64"></td>`) and submit the entry text-only
+rather than block on it.
 
 ### Labels
 
@@ -208,7 +211,7 @@ Before submitting, ensure:
 - [ ] App is in the correct category
 - [ ] Alphabetically ordered within category
 - [ ] Follows formatting guidelines exactly
-- [ ] Icon is a real 64×64 PNG from an official source, with its source recorded in `resources/icons/SOURCES.md` (or the entry is left text-only)
+- [ ] Icon is a real PNG from an official source, saved to `resources/icons/`, displayed at 48×48, with its source recorded in `resources/icons/SOURCES.md` (or the entry is left text-only)
 - [ ] Description is concise and objective
 - [ ] Link works and points to official site/repo
 - [ ] Pricing label is accurate
