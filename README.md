@@ -1,6 +1,6 @@
 #  Best MacOS Apps (2026) — Fast, Lightweight, No Electron (2026)
 
-[![Follow on X](https://img.shields.io/badge/X-%40Best__MacApps-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/best_macapps) [![Join Telegram](https://img.shields.io/badge/Telegram-mac__native-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mac_native) [![Subscribe on Substack](https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://nativemacapps.substack.com/)
+[![Follow on X](https://img.shields.io/badge/X-%40mac__native-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mac_native) [![Join Telegram](https://img.shields.io/badge/Telegram-mac__native-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mac_native) [![Subscribe on Substack](https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://nativemacapps.substack.com/)
 
 Discover high-quality macOS apps built with native technologies (Swift, SwiftUI, AppKit) that are fast, efficient, and respect your Mac's resources. This list focuses on apps that feel like they belong on macOS — no Electron bloat, just pure native performance.
 
@@ -1183,7 +1183,7 @@ Apps must meet ALL these criteria:
 
 ### Get Your App Spotlighted on X
 
-Beyond adding your app to this list, you can send it to us on [X (@best_macapps)](https://x.com/best_macapps) for a chance at an individual spotlight post with a screenshot and writeup. [Follow the account](https://x.com/NativeMacApps) to catch new spotlights.
+Beyond adding your app to this list, you can send it to us on [X (@mac_native)](https://x.com/mac_native) for a chance at an individual spotlight post with a screenshot and writeup. [Follow the account](https://x.com/mac_native) to catch new spotlights.
 
 ### Looking for More Places to Launch?
 

@@ -35,4 +35,4 @@
 
 ---
 
-💡 **Want extra visibility for your app?** Beyond this PR, send it to us on [X (@Best_MacApps)](https://x.com/best_macapps) for a chance at an individual spotlight post. [Follow us](https://x.com/best_macapps) to see when it goes up.
+💡 **Want extra visibility for your app?** Beyond this PR, send it to us on [X (@mac_native)](https://x.com/mac_native) for a chance at an individual spotlight post. [Follow us](https://x.com/mac_native) to see when it goes up.
