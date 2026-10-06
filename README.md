@@ -1,10 +1,26 @@
-# Awesome Native macOS Apps
+#  Best MacOS Apps (2026) — Fast, Lightweight, No Electron (2026)
 
 [![Follow on X](https://img.shields.io/badge/X-%40Best__MacApps-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/best_macapps) [![Join Telegram](https://img.shields.io/badge/Telegram-mac__native-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mac_native) [![Subscribe on Substack](https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://nativemacapps.substack.com/)
 
-A community-curated list of macOS apps built with native technologies (Swift, SwiftUI, AppKit) that are fast, efficient, and respect your Mac's resources — no Electron bloat, just native performance.
+Discover high-quality macOS apps built with native technologies (Swift, SwiftUI, AppKit) that are fast, efficient, and respect your Mac's resources. This list focuses on apps that feel like they belong on macOS — no Electron bloat, just pure native performance.
 
-Maintained by [MacNative.io](https://macnative.io), a curated directory of quality Mac apps where you can browse screenshots, pricing, and full app details for everything listed here.
+Maintained by [MacNative.io](https://macnative.io), a curated directory of quality mac apps.
+
+## 📬 Get Monthly Native App Picks in Your Inbox
+
+Subscribe to our newsletter and get 5-10 handpicked native macOS apps delivered monthly.
+
+**What you'll get:**
+
+- 🎯 Curated native apps (no Electron bloat)
+- 💎 Hidden gems you won't find elsewhere
+- 🆓 Free & open-source alternatives
+- 📊 App comparisons & recommendations
+- 🔧 Tips for getting the most out of your Mac
+
+📖 **[Subscribe to the Newsletter →](https://nativemacapps.substack.com/)**
+
+_Join early subscribers and never miss a great native Mac app again. Unsubscribe anytime._
 
 **👨‍💻 Building a Mac app?** This list is for users discovering apps — if you're looking for where to *launch* one, see [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms) for submission platforms, subreddits, and newsletters, each tagged free or paid.
 
@@ -1117,26 +1133,6 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 <td><strong><a href="https://github.com/koekeishiya/yabai">Yabai</a></strong><br><sub>Tiling window manager for macOS. <code>Free</code> <code>Open Source</code></sub></td>
 </tr>
 </table>
-
----
-
-## 📬 Get Monthly Native App Picks in Your Inbox
-
-Subscribe to our newsletter and get 5-10 handpicked native macOS apps delivered monthly.
-
-**What you'll get:**
-
-- 🎯 Curated native apps (no Electron bloat)
-- 💎 Hidden gems you won't find elsewhere
-- 🆓 Free & open-source alternatives
-- 📊 App comparisons & recommendations
-- 🔧 Tips for getting the most out of your Mac
-
-📖 **[Subscribe to the Newsletter →](https://nativemacapps.substack.com/)**
-
-_Join early subscribers and never miss a great native Mac app again. Unsubscribe anytime._
-
----
 
 ## Contributing
 
