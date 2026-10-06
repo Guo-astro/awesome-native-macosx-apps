@@ -88,14 +88,32 @@ Apps on this list are:
 
 Not sure where to begin? These 6 apps are the most universally useful — install them first and thank yourself later.
 
-| App | Why it's essential |
-|-----|--------------------|
-| [Rectangle](https://rectangleapp.com/) | Snap windows into place with keyboard shortcuts. You'll use this every single day. |
-| [Maccy](https://github.com/p0deje/Maccy) | Clipboard history that just works. Never lose a copied item again. |
-| [IINA](https://iina.io/) | Plays any video format natively. Makes QuickTime feel like a toy. |
-| [AppCleaner](https://freemacsoft.net/appcleaner/) | Uninstall apps properly — removes all leftover files, not just the `.app`. |
-| [iTerm2](https://iterm2.com/) | The terminal macOS should have shipped with. Tabs, split panes, search, and more. |
-| [TinyCast](https://tinycast.dev/) | Supercharged Spotlight replacement. Launch apps, manage clipboard, run scripts, and more — all from one keystroke. |
+<table>
+<tr>
+<td width="56"><img src="resources/icons/rectangle.png" width="40" height="40" alt="Rectangle icon"></td>
+<td><strong><a href="https://rectangleapp.com/">Rectangle</a></strong><br><sub>Snap windows into place with keyboard shortcuts. You'll use this every single day.</sub></td>
+</tr>
+<tr>
+<td width="56"><img src="resources/icons/maccy.png" width="40" height="40" alt="Maccy icon"></td>
+<td><strong><a href="https://github.com/p0deje/Maccy">Maccy</a></strong><br><sub>Clipboard history that just works. Never lose a copied item again.</sub></td>
+</tr>
+<tr>
+<td width="56"><img src="resources/icons/iina.png" width="40" height="40" alt="IINA icon"></td>
+<td><strong><a href="https://iina.io/">IINA</a></strong><br><sub>Plays any video format natively. Makes QuickTime feel like a toy.</sub></td>
+</tr>
+<tr>
+<td width="56"><img src="resources/icons/mole.png" width="40" height="40" alt="Mole icon"></td>
+<td><strong><a href="https://mole.fit/">Mole</a></strong><br><sub>Uninstall apps properly, clean caches, and reclaim disk space — all in one tool.</sub></td>
+</tr>
+<tr>
+<td width="56"><img src="resources/icons/iterm2.png" width="40" height="40" alt="iTerm2 icon"></td>
+<td><strong><a href="https://iterm2.com/">iTerm2</a></strong><br><sub>The terminal macOS should have shipped with. Tabs, split panes, search, and more.</sub></td>
+</tr>
+<tr>
+<td width="56"><img src="resources/icons/tinycast.png" width="40" height="40" alt="TinyCast icon"></td>
+<td><strong><a href="https://tinycast.dev/">TinyCast</a></strong><br><sub>Supercharged Spotlight replacement. Launch apps, manage clipboard, run scripts, and more — all from one keystroke.</sub></td>
+</tr>
+</table>
 
 ---
 
