@@ -33,36 +33,37 @@ _Join early subscribers and never miss a great native Mac app again. Unsubscribe
 - [New to Mac? Start Here](#-new-to-mac-start-here)
 
 **Categories**
-- [Analytics & Monitoring](#analytics--monitoring)
-- [Audio & Music](#audio--music)
-- [Backup & Sync](#backup--sync)
-- [Browsers & Web](#browsers--web)
-- [Calendar & Time](#calendar--time)
-- [Clipboard Managers](#clipboard-managers)
-- [Color Pickers](#color-pickers)
-- [Database Tools](#database-tools)
-- [Design Tools](#design-tools)
-- [Developer Tools](#developer-tools)
-- [Email & Communication](#email--communication)
-- [Finance](#finance)
-- [File Management](#file-management)
-- [Git & Version Control](#git--version-control)
-- [Image & Graphics](#image--graphics)
-- [Markdown Editors](#markdown-editors)
-- [Menu Bar Apps](#menu-bar-apps)
-- [Network Tools](#network-tools)
-- [Note-Taking & Writing](#note-taking--writing)
-- [Password Managers](#password-managers)
-- [PDF Tools](#pdf-tools)
-- [Productivity](#productivity)
-- [Screenshot & Recording](#screenshot--recording)
-- [Security & Privacy](#security--privacy)
-- [System Utilities](#system-utilities)
-- [Terminal & Shell](#terminal--shell)
-- [Text Editors](#text-editors)
-- [Video & Media](#video--media)
-- [Wallpaper Apps](#wallpaper-apps)
-- [Window Management](#window-management)
+- 🤖 [AI Tools](#ai-tools)
+- 📊 [Analytics & Monitoring](#analytics--monitoring)
+- 🎵 [Audio & Music](#audio--music)
+- 💾 [Backup & Sync](#backup--sync)
+- 🌐 [Browsers & Web](#browsers--web)
+- 📅 [Calendar & Time](#calendar--time)
+- 📋 [Clipboard Managers](#clipboard-managers)
+- 🎨 [Color Pickers](#color-pickers)
+- 🗄️ [Database Tools](#database-tools)
+- 🖌️ [Design Tools](#design-tools)
+- 👨‍💻 [Developer Tools](#developer-tools)
+- ✉️ [Email & Communication](#email--communication)
+- 💰 [Finance](#finance)
+- 🗂️ [File Management](#file-management)
+- 🔀 [Git & Version Control](#git--version-control)
+- 🖼️ [Image & Graphics](#image--graphics)
+- 📝 [Markdown Editors](#markdown-editors)
+- 📌 [Menu Bar Apps](#menu-bar-apps)
+- 📡 [Network Tools](#network-tools)
+- 🗒️ [Note-Taking & Writing](#note-taking--writing)
+- 🔐 [Password Managers](#password-managers)
+- 📄 [PDF Tools](#pdf-tools)
+- ⚡ [Productivity](#productivity)
+- 📸 [Screenshot & Recording](#screenshot--recording)
+- 🛡️ [Security & Privacy](#security--privacy)
+- 🛠️ [System Utilities](#system-utilities)
+- 💻 [Terminal & Shell](#terminal--shell)
+- ✍️ [Text Editors](#text-editors)
+- 🎬 [Video & Media](#video--media)
+- 🌄 [Wallpaper Apps](#wallpaper-apps)
+- 🪟 [Window Management](#window-management)
 
 **Resources**
 - [Contributing](#contributing)
@@ -116,6 +117,13 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 </table>
 
 ---
+
+## AI Tools
+
+<!-- No entries yet — see CONTRIBUTING.md for how to add one. Keep entries alphabetical and native (no Electron AI wrappers). -->
+
+<table>
+</table>
 
 ## Analytics & Monitoring
 
