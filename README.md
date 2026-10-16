@@ -413,6 +413,10 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 <td><strong><a href="https://www.copilot.money/">Copilot</a></strong><br><sub>Personal finance and budgeting app with automatic transaction syncing. <code>Subscription</code></sub></td>
 </tr>
 <tr>
+<td width="64"><img src="resources/icons/parendi.png" width="48" height="48" alt="Parendi icon"></td>
+<td><strong><a href="https://parendi.app">Parendi</a></strong><br><sub>Imports bank statements, categorizes transactions and tracks net worth, offline. <code>Paid</code></sub></td>
+</tr>
+<tr>
 <td width="64"><img src="resources/icons/soulver.png" width="48" height="48" alt="Soulver icon"></td>
 <td><strong><a href="https://soulver.app/">Soulver</a></strong><br><sub>Smart notepad calculator that understands plain English math. <code>Paid</code> <code>EU</code></sub></td>
 </tr>
