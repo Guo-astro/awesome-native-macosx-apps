@@ -64,7 +64,9 @@ Get 5-10 handpicked native apps, hidden gems, and free/open-source picks deliver
 
 ### What Makes an App "Native"?
 
-✅ Built with native macOS frameworks (Swift, SwiftUI, AppKit, Objective-C) — lightweight, fast, and follows Apple's Human Interface Guidelines. ❌ NOT Electron or other resource-heavy cross-platform wrappers.
+✅ Built with native macOS frameworks (Swift, SwiftUI, AppKit, Objective-C) — lightweight, fast, and follows Apple's Human Interface Guidelines.
+
+❌ NOT Electron or other resource-heavy cross-platform wrappers.
 
 ---
 
