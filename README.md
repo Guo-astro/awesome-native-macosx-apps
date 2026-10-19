@@ -30,8 +30,8 @@ _Join early subscribers and never miss a great native Mac app again. Unsubscribe
 
 **Getting Started**
 - [What Makes an App "Native"?](#what-makes-an-app-native)
-- [New to Mac? Start Here](#-new-to-mac-start-here)
 - [Featured](#-featured)
+- [New to Mac? Start Here](#-new-to-mac-start-here)
 
 **Categories**
 - 🤖 [AI Tools](#ai-tools)
@@ -87,6 +87,25 @@ Apps on this list are:
 
 ---
 
+## ⭐ Featured
+
+<table>
+<tr>
+<td width="64"><img src="resources/icons/sidenotes.png" width="48" height="48" alt="SideNotes icon"></td>
+<td><strong><a href="https://www.apptorium.com/sidenotes?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">SideNotes</a></strong><br><sub>Native macOS notes that slide out from your screen edge to capture tasks, links, and snippets.</sub></td>
+</tr>
+<tr>
+<td width="64"><img src="resources/icons/notchlight.png" width="48" height="48" alt="Notchlight icon"></td>
+<td><strong><a href="https://notchlight.com?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Notchlight</a></strong><br><sub>Live widgets on your Mac's lock screen and a Dynamic Island in the notch for music, calls, and trips.</sub></td>
+</tr>
+<tr>
+<td width="64"><img src="resources/icons/flow-diagram.png" width="48" height="48" alt="Flow Diagram icon"></td>
+<td><strong><a href="https://www.pointbluetech.com/flowdiagram/index.html?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Flow Diagram</a></strong><br><sub>Flow Diagram turns a messy photo or a quick sketch into a diagram you can edit, share and keep.</sub></td>
+</tr>
+</table>
+
+---
+
 ## 🚀 New to Mac? Start Here
 
 Not sure where to begin? These 6 apps are the most universally useful — install them first and thank yourself later.
@@ -115,25 +134,6 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 <tr>
 <td width="64"><img src="resources/icons/tinycast.png" width="48" height="48" alt="TinyCast icon"></td>
 <td><strong><a href="https://tinycast.dev/">TinyCast</a></strong><br><sub>Supercharged Spotlight replacement. Launch apps, manage clipboard, run scripts, and more — all from one keystroke.</sub></td>
-</tr>
-</table>
-
----
-
-## ⭐ Featured
-
-<table>
-<tr>
-<td width="64"><img src="resources/icons/sidenotes.png" width="48" height="48" alt="SideNotes icon"></td>
-<td><strong><a href="https://www.apptorium.com/sidenotes?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">SideNotes</a></strong><br><sub>Native macOS notes that slide out from your screen edge to capture tasks, links, and snippets.</sub></td>
-</tr>
-<tr>
-<td width="64"><img src="resources/icons/notchlight.png" width="48" height="48" alt="Notchlight icon"></td>
-<td><strong><a href="https://notchlight.com?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Notchlight</a></strong><br><sub>Live widgets on your Mac's lock screen and a Dynamic Island in the notch for music, calls, and trips.</sub></td>
-</tr>
-<tr>
-<td width="64"><img src="resources/icons/flow-diagram.png" width="48" height="48" alt="Flow Diagram icon"></td>
-<td><strong><a href="https://www.pointbluetech.com/flowdiagram/index.html?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Flow Diagram</a></strong><br><sub>Flow Diagram turns a messy photo or a quick sketch into a diagram you can edit, share and keep.</sub></td>
 </tr>
 </table>
 
