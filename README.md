@@ -127,6 +127,14 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 <td width="64"><img src="resources/icons/flow-diagram.png" width="48" height="48" alt="Flow Diagram icon"></td>
 <td><strong><a href="https://www.pointbluetech.com/flowdiagram/index.html?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Flow Diagram</a></strong><br><sub>Flow Diagram turns a messy photo or a quick sketch into a diagram you can edit, share and keep.</sub></td>
 </tr>
+<tr>
+<td width="64"><img src="resources/icons/sidenotes.png" width="48" height="48" alt="SideNotes icon"></td>
+<td><strong><a href="https://macnative.io/apps/sidenotes?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">SideNotes</a></strong><br><sub>Native macOS notes that slide out from your screen edge to capture tasks, links, and snippets.</sub></td>
+</tr>
+<tr>
+<td width="64"><img src="resources/icons/notchlight.png" width="48" height="48" alt="Notchlight icon"></td>
+<td><strong><a href="https://macnative.io/apps/notchlight?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Notchlight</a></strong><br><sub>Live widgets on your Mac's lock screen and a Dynamic Island in the notch for music, calls, and trips.</sub></td>
+</tr>
 </table>
 
 ---
