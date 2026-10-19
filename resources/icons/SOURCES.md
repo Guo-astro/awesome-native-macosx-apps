@@ -110,6 +110,7 @@ Each icon was resized to 64x64px for display; no crops or edits beyond resizing/
 | NetNewsWire | `resources/icons/netnewswire.png` | https://netnewswire.com/images/nnw7.0-appicon-ios-dark.png (official site) |
 | Nice.md | `resources/icons/nice-md.png` | https://nicemd.app/apple-touch-icon.png (official site) |
 | Notational Velocity | `resources/icons/notational-velocity.png` | GitHub repo scrod/nv — Images/Notality.icns (original product name; converted from .icns) |
+| Notchlight | `resources/icons/notchlight.png` | https://assets.macnative.io/logo/09d970b5-4e29-42a5-b71e-ea1a49891702.png (MacNative.io listing) |
 | Notebooks | `resources/icons/notebooks.png` | https://www.notebooksapp.com/wp-content/uploads/2026/02/cropped-Header-Logo-2026-light@2x-1-180x180.png (official site) |
 | Nova | `resources/icons/nova.png` | https://nova.app/apple-touch-icon.png (official site) |
 | OmniFocus | `resources/icons/omnifocus.png` | https://www.omnigroup.com/assets/img/logo/BlueOmni.png (official site) |
@@ -150,6 +151,7 @@ Each icon was resized to 64x64px for display; no crops or edits beyond resizing/
 | SeqLog | `resources/icons/seqlog.png` | https://seqlog.com/apple-touch-icon.png (official site) |
 | Shieldxy | `resources/icons/shieldxy.png` | https://rockxy.io/assets/images/shieldxy/logo-256.png (official site) |
 | Shottr | `resources/icons/shottr.png` | https://shottr.cc/assets/favicon.png (official site) |
+| SideNotes | `resources/icons/sidenotes.png` | https://assets.macnative.io/logo/f79dbc56-280f-4437-b0eb-048ae09c25da.png (MacNative.io listing) |
 | Sip | `resources/icons/sip.png` | https://sipapp.io/assets/img/favicon/192x192.png (official site) |
 | Sketch | `resources/icons/sketch.png` | https://www.sketch.com/images/metadata/icon-180.png (official site) |
 | Skim | `resources/icons/skim.png` | https://skim-app.sourceforge.io/images/skim32.png (official site) |

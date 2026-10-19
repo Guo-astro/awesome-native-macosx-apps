@@ -2,27 +2,15 @@
 
 [![Follow on X](https://img.shields.io/badge/X-%40mac__native-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mac_native) [![Join Telegram](https://img.shields.io/badge/Telegram-mac__native-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mac_native) [![Subscribe on Substack](https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://nativemacapps.substack.com/)
 
-Discover high-quality macOS apps built with native technologies (Swift, SwiftUI, AppKit) that are fast, efficient, and respect your Mac's resources. This list focuses on apps that feel like they belong on macOS — no Electron bloat, just pure native performance.
+Discover high-quality macOS apps built with native technologies (Swift, SwiftUI, AppKit) — fast, efficient, and light on your Mac's resources. No Electron bloat, just pure native performance.
 
-Maintained by [MacNative.io](https://macnative.io/?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=readme_intro), a curated directory of Mac apps. Explore screenshots, pricing, and app details to find the right tools for your Mac.
+Maintained by [MacNative.io](https://macnative.io/?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=readme_intro), a curated directory of Mac apps.
 
 ## 📬 Get Monthly Native App Picks in Your Inbox
 
-Subscribe to our newsletter and get 5-10 handpicked native macOS apps delivered monthly.
+Get 5-10 handpicked native apps, hidden gems, and free/open-source picks delivered monthly. 📖 **[Subscribe →](https://nativemacapps.substack.com/)** — unsubscribe anytime.
 
-**What you'll get:**
-
-- 🎯 Curated native apps (no Electron bloat)
-- 💎 Hidden gems you won't find elsewhere
-- 🆓 Free & open-source alternatives
-- 📊 App comparisons & recommendations
-- 🔧 Tips for getting the most out of your Mac
-
-📖 **[Subscribe to the Newsletter →](https://nativemacapps.substack.com/)**
-
-_Join early subscribers and never miss a great native Mac app again. Unsubscribe anytime._
-
-**👨‍💻 Building a Mac app?** This list is for users discovering apps — if you're looking for where to *launch* one, see [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms) for submission platforms, subreddits, and newsletters, each tagged free or paid.
+**👨‍💻 Building a Mac app?** This list is for discovering apps — if you're looking to *launch* one, see [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms) for submission platforms, subreddits, and newsletters.
 
 ---
 
@@ -30,6 +18,7 @@ _Join early subscribers and never miss a great native Mac app again. Unsubscribe
 
 **Getting Started**
 - [What Makes an App "Native"?](#what-makes-an-app-native)
+- [Featured](#-featured)
 - [New to Mac? Start Here](#-new-to-mac-start-here)
 - [Featured](#-featured)
 
@@ -76,14 +65,28 @@ _Join early subscribers and never miss a great native Mac app again. Unsubscribe
 
 ### What Makes an App "Native"?
 
-Apps on this list are:
+✅ Built with native macOS frameworks (Swift, SwiftUI, AppKit, Objective-C) — lightweight, fast, and follows Apple's Human Interface Guidelines.
 
-- ✅ Built with native macOS frameworks (Swift, SwiftUI, AppKit, Objective-C)
-- ✅ Lightweight and resource-efficient
-- ✅ Follow Apple's Human Interface Guidelines
-- ✅ Feel fast and responsive
-- ❌ NOT Electron or web-wrapper apps
-- ❌ NOT resource-heavy cross-platform apps
+❌ NOT Electron or other resource-heavy cross-platform wrappers.
+
+---
+
+## ⭐ Featured
+
+<table>
+<tr>
+<td width="64"><img src="resources/icons/sidenotes.png" width="48" height="48" alt="SideNotes icon"></td>
+<td><strong><a href="https://www.apptorium.com/sidenotes?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">SideNotes</a></strong><br><sub>Native macOS notes that slide out from your screen edge to capture tasks, links, and snippets.</sub></td>
+</tr>
+<tr>
+<td width="64"><img src="resources/icons/notchlight.png" width="48" height="48" alt="Notchlight icon"></td>
+<td><strong><a href="https://notchlight.com?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Notchlight</a></strong><br><sub>Live widgets on your Mac's lock screen and a Dynamic Island in the notch for music, calls, and trips.</sub></td>
+</tr>
+<tr>
+<td width="64"><img src="resources/icons/flow-diagram.png" width="48" height="48" alt="Flow Diagram icon"></td>
+<td><strong><a href="https://www.pointbluetech.com/flowdiagram/index.html?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Flow Diagram</a></strong><br><sub>Flow Diagram turns a messy photo or a quick sketch into a diagram you can edit, share and keep.</sub></td>
+</tr>
+</table>
 
 ---
 
