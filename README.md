@@ -123,17 +123,6 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 
 ---
 
-## ⭐ Featured
-
-<table>
-<tr>
-<td width="64"><img src="resources/icons/flow-diagram.png" width="48" height="48" alt="Flow Diagram icon"></td>
-<td><strong><a href="https://www.pointbluetech.com/flowdiagram/index.html?utm_source=awesome-native-macosx-apps&utm_medium=readme&utm_campaign=featured">Flow Diagram</a></strong><br><sub>Flow Diagram turns a messy photo or a quick sketch into a diagram you can edit, share and keep.</sub></td>
-</tr>
-</table>
-
----
-
 ## AI Tools
 
 [Browse AI and automation apps on MacNative →](https://macnative.io/categories/ai-automation?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=category_ai-automation)
