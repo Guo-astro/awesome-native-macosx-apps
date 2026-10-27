@@ -16,7 +16,7 @@ Curated by [MacNative.io](https://macnative.io/) — discover more great Mac app
 
 **Getting Started**
 - [What Makes an App "Native"?](#what-makes-an-app-native)
-- [Featured](#-featured)
+- [Spotlight](#-spotlight)
 - [New to Mac? Start Here](#-new-to-mac-start-here)
 
 **Categories**
@@ -69,9 +69,9 @@ Electron apps and web wrappers are not eligible. These requirements apply to eve
 
 ---
 
-## ⭐ Featured
+## ⭐ Spotlight
 
-**Sponsored placements:** These apps are featured as part of the paid [MacNative Pro plan](https://macnative.io/pricing). Every featured app must meet this list's native-app requirements.
+Sponsored by apps on the [MacNative Pro plan](https://macnative.io/pricing). Native apps only.
 
 <table>
 <tr>
@@ -1223,7 +1223,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) for eligibility, entry formatting, and i
 
 ## For Mac App Developers
 
-[Submit your app to MacNative](https://macnative.io/submit). Featured placement in this README is included in the paid [MacNative Pro plan](https://macnative.io/pricing), subject to the same native-app requirements as every other listing.
+[Submit your app to MacNative](https://macnative.io/submit). Spotlight placement in this README is included in the paid [MacNative Pro plan](https://macnative.io/pricing), subject to the same native-app requirements as every other listing.
 
 Looking for more places to launch? Browse [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
 
