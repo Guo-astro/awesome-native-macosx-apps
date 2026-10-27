@@ -1227,7 +1227,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) for eligibility, entry formatting, and i
 
 Looking for more places to launch? Browse [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
 
-For an app spotlight, reach us on [X (@mac_native)](https://x.com/mac_native). For sponsorship inquiries, email [sponsor@opensaas.directory](mailto:sponsor@opensaas.directory).
+For an app spotlight, reach us on [X (@mac_native)](https://x.com/mac_native). For sponsorship inquiries, email [hello@macnative.io](mailto:hello@macnative.io).
 
 ## Star History
 
