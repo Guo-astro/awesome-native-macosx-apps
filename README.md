@@ -8,6 +8,8 @@ Discover high-quality macOS apps built with Swift, SwiftUI, and AppKit — fast,
   <a href="https://github.com/open-saas-directory/awesome-native-macosx-apps/issues/new?template=app-submission.md"><img src="resources/header-cards/submit.svg" width="32%" alt="Submit your app: Built something for Mac? Submit your app →"></a>
 </p>
 
+Curated by [MacNative.io](https://macnative.io/) — discover more great Mac apps in our directory.
+
 ---
 
 ## Contents
