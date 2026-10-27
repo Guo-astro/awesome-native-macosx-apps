@@ -1,16 +1,16 @@
 # Best Mac Apps (2026) — Native macOS Apps
 
-[![Follow on X](https://img.shields.io/badge/X-%40mac__native-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mac_native) [![Join Telegram](https://img.shields.io/badge/Telegram-mac__native-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mac_native) [![Subscribe on Substack](https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://macnative.substack.com/)
+Discover high-quality macOS apps built with Swift, SwiftUI, and AppKit — fast, lightweight, and made for your Mac.
 
-Discover high-quality macOS apps built with native technologies (Swift, SwiftUI, AppKit) — fast, efficient, and light on your Mac's resources. No Electron bloat, just pure native performance.
+<p align="center">
+  <a href="https://nativemacapps.substack.com/"><img src="resources/header-cards/newsletter.svg" width="32%" alt="Newsletter: Native apps, in your inbox. Subscribe →"></a>
+  <a href="https://macnative.io/?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=native_apps_list&amp;utm_content=readme_header"><img src="resources/header-cards/directory.svg" width="32%" alt="MacNative.io: Find your next favorite app. Explore the website →"></a>
+  <a href="https://github.com/open-saas-directory/awesome-native-macosx-apps/issues/new?template=app-submission.md"><img src="resources/header-cards/submit.svg" width="32%" alt="Submit your app: Built something for Mac? Submit your app →"></a>
+</p>
 
-Maintained by [MacNative.io](https://macnative.io/?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=readme_intro), a curated directory of Mac apps.
+[Follow on X](https://x.com/mac_native) · [Join Telegram](https://t.me/mac_native) · Curated by [MacNative.io](https://macnative.io/?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=readme_intro)
 
-## 📬 Get Monthly Native App Picks in Your Inbox
-
-Get 5-10 handpicked native apps, hidden gems, and free/open-source picks delivered monthly. 📖 **[Subscribe →](https://nativemacapps.substack.com/)** — unsubscribe anytime.
-
-**👨‍💻 Building a Mac app?** This list is for discovering apps — if you're looking to *launch* one, see [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms) for submission platforms, subreddits, and newsletters.
+**Building a Mac app?** Find more places to launch in [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
 
 ---
 
