@@ -8,10 +8,6 @@ Discover high-quality macOS apps built with Swift, SwiftUI, and AppKit — fast,
   <a href="https://github.com/open-saas-directory/awesome-native-macosx-apps/issues/new?template=app-submission.md"><img src="resources/header-cards/submit.svg" width="32%" alt="Submit your app: Built something for Mac? Submit your app →"></a>
 </p>
 
-[Follow on X](https://x.com/mac_native) · [Join Telegram](https://t.me/mac_native) · Curated by [MacNative.io](https://macnative.io/?utm_source=github&utm_medium=referral&utm_campaign=native_apps_list&utm_content=readme_intro)
-
-**Building a Mac app?** Find more places to launch in [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
-
 ---
 
 ## Contents
@@ -1275,3 +1271,5 @@ To the extent possible under law, the contributors have waived all copyright and
 ---
 
 Reach thousands of Mac power users by sponsoring this list. Contact us at [sponsor@opensaas.directory](mailto:sponsor@opensaas.directory)
+
+**Building a Mac app?** Find more places to launch in [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
