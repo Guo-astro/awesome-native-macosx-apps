@@ -200,6 +200,7 @@ Each icon was resized to 64x64px for display; no crops or edits beyond resizing/
 | Xnapper | `resources/icons/xnapper.png` | https://xnapper.com/apple-icon-180x180.png (official site) |
 | Yabai | `resources/icons/yabai.png` | GitHub repo koekeishiya/yabai — assets/icon/1x/icon-256px.png |
 | Zen Browser | `resources/icons/zen-browser.png` | https://zen-browser.app/favicon.ico (official site) |
+| Zipic | `resources/icons/zipic.png` | Official app icon supplied by the developer; https://zipic.app/favicon.svg (official site) |
 | coconutBattery | `resources/icons/coconutbattery.png` | https://www.coconut-flavour.com/favicon.png (official site) |
 | eqMac | `resources/icons/eqmac.png` | https://eqmac.app/favicon.ico (official site) |
 | iA Writer | `resources/icons/ia-writer.png` | https://static.ia.net/favicon-192.png (official site) |
