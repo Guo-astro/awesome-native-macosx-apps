@@ -5,7 +5,7 @@ Discover high-quality macOS apps built with Swift, SwiftUI, and AppKit — fast,
 <p align="center">
   <a href="https://nativemacapps.substack.com/"><img src="resources/header-cards/newsletter.svg" width="32%" alt="Newsletter: Native apps, in your inbox. Subscribe →"></a>
   <a href="https://macnative.io/?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=native_apps_list&amp;utm_content=readme_header"><img src="resources/header-cards/directory.svg" width="32%" alt="MacNative.io: Find your next favorite app. Explore the website →"></a>
-  <a href="https://github.com/open-saas-directory/awesome-native-macosx-apps/issues/new?template=app-submission.md"><img src="resources/header-cards/submit.svg" width="32%" alt="Submit your app: Built something for Mac? Submit your app →"></a>
+  <a href="https://macnative.io/submit"><img src="resources/header-cards/submit.svg" width="32%" alt="Submit your app: Built something for Mac? Submit your app →"></a>
 </p>
 
 Curated by [MacNative.io](https://macnative.io/) — discover more great Mac apps in our directory.
@@ -18,7 +18,6 @@ Curated by [MacNative.io](https://macnative.io/) — discover more great Mac app
 - [What Makes an App "Native"?](#what-makes-an-app-native)
 - [Featured](#-featured)
 - [New to Mac? Start Here](#-new-to-mac-start-here)
-- [Featured](#-featured)
 
 **Categories**
 - 🤖 [AI Tools](#ai-tools)
@@ -56,6 +55,7 @@ Curated by [MacNative.io](https://macnative.io/) — discover more great Mac app
 **Resources**
 - [Mac App Guides](#mac-app-guides)
 - [Contributing](#contributing)
+- [For Mac App Developers](#for-mac-app-developers)
 - [Star History](#star-history)
 - [License](#license)
 
@@ -63,13 +63,15 @@ Curated by [MacNative.io](https://macnative.io/) — discover more great Mac app
 
 ### What Makes an App "Native"?
 
-✅ Built with native macOS frameworks (Swift, SwiftUI, AppKit, Objective-C) — lightweight, fast, and follows Apple's Human Interface Guidelines.
+Only native Mac apps belong on this list: built with macOS frameworks such as SwiftUI and AppKit, using Swift or Objective-C, and designed to feel at home on your Mac.
 
-❌ NOT Electron or other resource-heavy cross-platform wrappers.
+Electron apps and web wrappers are not eligible. These requirements apply to every listing, including sponsored placements.
 
 ---
 
 ## ⭐ Featured
+
+**Sponsored placements:** These apps are featured as part of the paid [MacNative Pro plan](https://macnative.io/pricing). Every featured app must meet this list's native-app requirements.
 
 <table>
 <tr>
@@ -1215,63 +1217,26 @@ Go beyond the list with guides from MacNative:
 
 ## Contributing
 
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting.
+Know a great native Mac app, or spotted something that needs fixing? [Suggest an app](https://github.com/open-saas-directory/awesome-native-macosx-apps/issues/new?template=app-submission.md), report an issue, or open a pull request.
 
-### How to Contribute
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for eligibility, entry formatting, and icon requirements. Only native Mac apps are accepted; Electron apps and web wrappers are excluded.
 
-1. **Fork** this repository
-2. **Add** your app to the appropriate category's table, in alphabetical order, following the two-column gallery format described in [CONTRIBUTING.md](CONTRIBUTING.md)
-3. **Verify** the app is truly native (Swift/SwiftUI/AppKit)
-4. Create a **Pull Request**
+## For Mac App Developers
 
-### App Requirements
+[Submit your app to MacNative](https://macnative.io/submit). Featured placement in this README is included in the paid [MacNative Pro plan](https://macnative.io/pricing), subject to the same native-app requirements as every other listing.
 
-Apps must meet ALL these criteria:
+Looking for more places to launch? Browse [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
 
-- ✅ Built with native macOS technologies
-- ✅ Lightweight and performant
-- ✅ Actively maintained (updated within the last 2 years)
-- ✅ Available for download
-- ✅ No malware/spyware
-
-### What NOT to Include
-
-- ❌ Electron apps
-- ❌ Web wrappers
-- ❌ Abandoned projects (no updates in 2+ years)
-- ❌ Apps with malware/suspicious behavior
-- ❌ Cross-platform apps with poor macOS integration
-
-### Get Your App Spotlighted on X
-
-Beyond adding your app to this list, you can send it to us on [X (@mac_native)](https://x.com/mac_native) for a chance at an individual spotlight post with a screenshot and writeup. [Follow the account](https://x.com/mac_native) to catch new spotlights.
-
-### Looking for More Places to Launch?
-
-Getting your app into this list is one channel — for the full picture (Product Hunt-style platforms, relevant subreddits, other GitHub awesome lists, and newsletters that cover Mac apps), see [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
+For an app spotlight, reach us on [X (@mac_native)](https://x.com/mac_native). For sponsorship inquiries, email [sponsor@opensaas.directory](mailto:sponsor@opensaas.directory).
 
 ## Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=open-saas-directory/awesome-native-macosx-apps&type=Date)](https://star-history.dera.page/#open-saas-directory/awesome-native-macosx-apps&Date)
+
+If this list helps you discover useful apps, consider starring the repository.
 
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related rights to this work.
-
----
-
-**💡 Found a great native macOS app?** [Submit it here!](../../issues/new?template=app-submission.md)
-
-**⭐ If you find this list useful, please star the repo to help others discover it!**
-
-**🔗 Share:** [Twitter](https://twitter.com/intent/tweet?text=Awesome%20Native%20macOS%20Apps%20%E2%80%93%20A%20curated%20list%20of%20beautiful%2C%20lightweight%20macOS%20applications&url=https://github.com/open-saas-directory/awesome-native-macosx-apps) | [Reddit](https://reddit.com/submit?url=https://github.com/open-saas-directory/awesome-native-macosx-apps&title=Awesome%20Native%20macOS%20Apps)
-
-
-
----
-
-Reach thousands of Mac power users by sponsoring this list. Contact us at [sponsor@opensaas.directory](mailto:sponsor@opensaas.directory)
-
-**Building a Mac app?** Find more places to launch in [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms).
