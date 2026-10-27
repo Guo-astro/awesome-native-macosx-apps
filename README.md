@@ -513,6 +513,10 @@ Not sure where to begin? These 6 apps are the most universally useful — instal
 <td width="64"><img src="resources/icons/xscope.png" width="48" height="48" alt="xScope icon"></td>
 <td><strong><a href="https://xscopeapp.com/">xScope</a></strong><br><sub>Measure, inspect and test on-screen graphics. <code>Paid</code></sub></td>
 </tr>
+<tr>
+<td width="64"><img src="resources/icons/zipic.png" width="48" height="48" alt="Zipic icon"></td>
+<td><strong><a href="https://zipic.app/">Zipic</a></strong><br><sub>Compress and convert images locally, with batch processing and a CLI. <code>Freemium</code></sub></td>
+</tr>
 </table>
 
 ## Markdown Editors
