@@ -14,11 +14,6 @@ Curated by [MacNative.io](https://macnative.io/) — discover more great Mac app
 
 ## Contents
 
-**Getting Started**
-- [What Makes an App "Native"?](#what-makes-an-app-native)
-- [Spotlight](#-spotlight)
-- [New to Mac? Start Here](#-new-to-mac-start-here)
-
 **Categories**
 - 🤖 [AI Tools](#ai-tools)
 - 📊 [Analytics & Monitoring](#analytics--monitoring)
@@ -51,13 +46,6 @@ Curated by [MacNative.io](https://macnative.io/) — discover more great Mac app
 - 🎬 [Video & Media](#video--media)
 - 🌄 [Wallpaper Apps](#wallpaper-apps)
 - 🪟 [Window Management](#window-management)
-
-**Resources**
-- [Mac App Guides](#mac-app-guides)
-- [Contributing](#contributing)
-- [For Mac App Developers](#for-mac-app-developers)
-- [Star History](#star-history)
-- [License](#license)
 
 ---
 
