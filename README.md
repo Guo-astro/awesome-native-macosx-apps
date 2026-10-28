@@ -3,7 +3,7 @@
 Discover high-quality macOS apps built with Swift, SwiftUI, and AppKit — fast, lightweight, and made for your Mac.
 
 <p align="center">
-  <a href="https://nativemacapps.substack.com/"><img src="resources/header-cards/newsletter.svg" width="32%" alt="Newsletter: Native apps, in your inbox. Subscribe →"></a>
+  <a href="https://macnative.substack.com/"><img src="resources/header-cards/newsletter.svg" width="32%" alt="Newsletter: Native apps, in your inbox. Subscribe →"></a>
   <a href="https://macnative.io/?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=native_apps_list&amp;utm_content=readme_header"><img src="resources/header-cards/directory.svg" width="32%" alt="MacNative.io: Find your next favorite app. Explore the website →"></a>
   <a href="https://macnative.io/submit"><img src="resources/header-cards/submit.svg" width="32%" alt="Submit your app: Built something for Mac? Submit your app →"></a>
 </p>
